@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component, PropTypes } from "react";
 
 class RandomTest extends Component {
   static PropTypes = {
@@ -7,7 +7,7 @@ class RandomTest extends Component {
   }
   render (){
     let {
-      h2 = 'sup this a github edit',
+      h2 = "sup this a github edit",
     } = this.props;
 
     let {
