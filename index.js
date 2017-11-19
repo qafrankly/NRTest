@@ -2,10 +2,10 @@ import React, { Component, PropTypes } from 'react';
 
 class RandomTest extends Component {
   static PropTypes = {
-    h1: PropTypes.string;
-    h2: PropTypes.string;
+    h1: PropTypes.string,
+    h2: PropTypes.string,
   }
-  render (){
+  "render" (){
     let {
       h2 = 'sup this a github edit',
     } = this.props;
